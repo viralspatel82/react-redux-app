@@ -5,6 +5,7 @@ import Stopwatch from "./Stopwatch";
 import Counter from "./Counter";
 import store from "./store";
 import { Provider } from "react-redux";
+import Test from "./Test";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -16,6 +17,9 @@ ReactDOM.render(
       <hr></hr>
       <h1>react-redux Example</h1>
       <Counter />
+      <hr></hr>
+      <h1>Use Data In Other Components</h1>
+      <Test />
     </StrictMode>
   </Provider>,
   rootElement
